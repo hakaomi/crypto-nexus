@@ -1,0 +1,73 @@
+{
+  "name": "Crypto Nexus",
+  "description": "Marketplace and catalog surface for discovering A2A agents and MCP utilities.",
+  "url": "https://your-crypto-nexus.vercel.app",
+  "version": "1.0.0",
+  "author": "dataweb",
+  "capabilities": [
+    "mcp",
+    "a2a",
+    "tools",
+    "prompts",
+    "resources"
+  ],
+  "endpoints": {
+    "mcp": "https://your-crypto-nexus.vercel.app/mcp",
+    "a2a": "https://your-crypto-nexus.vercel.app/a2a",
+    "agentCard": "https://your-crypto-nexus.vercel.app/.well-known/agent-card.json"
+  },
+  "skills": [
+    {
+      "name": "list_featured_agents",
+      "description": "List highlighted A2A and MCP products in the marketplace."
+    },
+    {
+      "name": "compare_agents",
+      "description": "Compare two or more agent products by fit and capabilities."
+    },
+    {
+      "name": "bundle_builder",
+      "description": "Build stack bundles from complementary agents and tools."
+    },
+    {
+      "name": "catalog_strategy",
+      "description": "Generate catalog positioning and listing strategy prompts."
+    },
+    {
+      "name": "market_map",
+      "description": "Map the marketplace by segment, price, and usage."
+    },
+    {
+      "name": "listing_audit",
+      "description": "Audit listing quality, trust cues, and clarity."
+    },
+    {
+      "name": "buyer_fit",
+      "description": "Match buyer goals to the right product stack."
+    },
+    {
+      "name": "vendor_ranking",
+      "description": "Rank vendors by segment strength and adoption signals."
+    },
+    {
+      "name": "price_snapshot",
+      "description": "Read packaging and pricing posture across listing tiers."
+    },
+    {
+      "name": "niche_spotlight",
+      "description": "Surface promising niche categories inside the catalog."
+    },
+    {
+      "name": "partner_feed",
+      "description": "Track partner changes and new listing activity."
+    },
+    {
+      "name": "offer_design",
+      "description": "Design marketplace offers and commercial bundles."
+    },
+    {
+      "name": "launch_merchandising",
+      "description": "Prepare featured-slot launch positioning for new listings."
+    }
+  ]
+}
